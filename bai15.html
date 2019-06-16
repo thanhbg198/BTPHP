@@ -5,81 +5,80 @@
     <title>Title</title>
 </head>
 <style>
-    span {
-        font-weight: bold;
+    div {
+        border: 1px solid;
+        margin: auto;
+        width: 615px;
+        text-align: center;
     }
 
-    p {
-        text-align: center;
+    table {
+        width: 600px;
+        margin-left: 5px;
     }
-    .head {
-        width: 100%;
-        border: 1px solid;
-        height: 45px;
-        text-align: center;
-        padding: 5px 0;
-        background: green;
-        color: red;
+    caption {
         font-size: 30px;
+        color: red;
     }
-
-    body {
-        margin: 0;
-    }
-
-    .ct {
-        border: 1px solid;
-        height: 315px;
-    }
-
-    .left {
-        float: left;
-        width: 20%;
-        background: pink;
-    }
-
-    .aa {
-    }
-
-    .right {
-        margin-left: 30px;
-        width: 76%;
-        float: left;
+    tr.a {
+        background: blue;
+        color: #FFF;
     }
 </style>
 <body>
-<div class="aa">
-<div class="head">
-    bài tập ngôn ngữ HTMl
-</div>
-<div class="ct">
-    <div class="left">
-        <ul>
-            <li><a href="bai1.html">bài 1:các tag cơ bản</a> </li>
-            <li><a href="bai1.html">bài 2:các tag cơ bản</a> </li>
-            <li><a href="bai1.html">bài 3:các tag cơ bản</a> </li>
-            <li><a href="bai1.html">bài 4:các tag cơ bản</a> </li>
-            <li><a href="bai1.html">bài 5:các tag cơ bản</a> </li>
-            <li><a href="bai1.html">bài 6:các tag cơ bản</a> </li>
-            <li><a href="bai1.html">bài 7:các tag cơ bản</a> </li>
-            <li><a href="bai1.html">bài 8:các tag cơ bản</a> </li>
-            <li><a href="bai1.html">bài 9:các tag cơ bản</a> </li>
-            <li><a href="bai1.html">bài 10:các tag cơ bản</a> </li>
-            <li><a href="bai1.html">bài 11:các tag cơ bản</a> </li>
-            <li><a href="bai1.html">bài 1:ác tag cơ bản</a> </li>
-            <li><a href="bai1.html">bài 12:các tag cơ bản</a> </li>
-            <li><a href="bai1.html">bài 13:các tag cơ bản</a> </li>
-            <li><a href="bai1.html">bài 14:các tag cơ bản</a> </li>
-        </ul>
-    </div>
-    <div class="right">
-        <h1>Bài 1:Sử dụng các tag cơ bản</h1>
-        <h2><u>Yêu cầu</u></h2>
-        <span>thiết kế trang web có nội dung như sau:</span>
-        <p>Lập trình web</p>
-        <p>chào mừng bạn tới với ngôn ngữ HTML</p>
-    </div>
-</div>
-</div>
+<div>
+    <table cellspacing="0" border="1px">
+        <caption>kết quả học tập</caption>
+        <tr class="a">
+            <td rowspan="2">họ và tên <br />học sinh</td>
+            <td colspan="2">năm sinh</td>
+            <td rowspan="2">điểm <br />tb</td>
+            <td rowspan="2">xếp loại</td>
+        </tr>
+        <tr class="a">
+            <td>nam</td>
+            <td>nữ</td></tr>
+        <tr>
+            <td>lê thanh xuân</td>
+            <td></td>
+            <td>1950</td>
+            <td>8.5</td>
+            <td>giỏi</td>
+        </tr>
+        <tr>
+            <td>lê thanh xuân</td>
+            <td>1850</td>
+            <td></td>
+            <td>4.5</td>
+            <td>yếu</td></tr>
+        <tr>
+        <tr>
+            <td>lê thanh xuân</td>
+            <td></td>
+            <td>1950</td>
+            <td>9.0</td>
+            <td>xuất sắc</td></tr>
+        <tr>
+        <tr>
+            <td>lê thanh xuân</td>
+            <td></td>
+            <td>1950</td>
+            <td>8.5</td>
+            <td>giỏi</td></tr>
+        <tr>
+        <tr>
+            <td>lê thanh xuân</td>
+            <td></td>
+            <td>1950</td>
+            <td>8.5</td>
+            <td>giỏi</td></tr>
+        <tr>
+
+        <tr class="a">
+            <td colspan="3	">tổng số</td>
+            <td colspan="2"> 4 học sinh</td>
+        </tr>
+
+    </table>
 </body>
 </html>
